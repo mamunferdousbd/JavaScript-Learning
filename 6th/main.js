@@ -1,0 +1,12 @@
+document.write("Abdullah Al " + "Mamun" + "<br>");
+var firstName = " Abdullah Al";
+var lasttName = " Mamun";
+var fullNmae = firstName + lasttName;
+document.write("My Name Is " + fullNmae + "<br>");
+var fullName = "Abdullah Al Mamun";
+document.write(fullName + " is my Name" + "<br>");
+var fullName = "Abdullah Al ";
+document.write("My Name is " + fullName + "Mamun" + "<br>");
+var num1 = 20;
+var num2 = 30;
+document.write("num1 is = " + num1 + " and" + "Num2 is = " + num2);
