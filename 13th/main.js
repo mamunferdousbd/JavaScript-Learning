@@ -23,17 +23,17 @@ document.write("<h2>Grading System</h2> " + "<br>");
 
 var marks = parseFloat(prompt("Enter Your Mark:"));
 
-if (marks >= 80 || marks <= 100) {
+if (marks >= 80 && marks <= 100) {
     document.write("A+");
-} else if (marks >= 70) {
+} else if (marks >= 70 && marks <= 79) {
     document.write("A");
-} else if (marks >= 60) {
+} else if (marks >= 60 && marks <= 69) {
     document.write("A-");
-} else if (marks >= 50) {
+} else if (marks >= 50 && marks <= 59) {
     document.write("B");
-} else if (marks >= 40) {
+} else if (marks >= 40 && marks <= 49) {
     document.write("C");
-} else if (marks >= 33) {
+} else if (marks >= 33 && marks <= 39) {
     document.write("D");
 } else {
     document.write("Fail");
