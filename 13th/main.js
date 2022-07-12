@@ -23,7 +23,9 @@ document.write("<h2>Grading System</h2> " + "<br>");
 
 var marks = parseFloat(prompt("Enter Your Mark:"));
 
-if (marks >= 80 && marks <= 100) {
+if (marks > 100 || marks < 0) {
+    document.write("Invalid");
+} else if (marks >= 80 && marks <= 100) {
     document.write("A+");
 } else if (marks >= 70 && marks <= 79) {
     document.write("A");
