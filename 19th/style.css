@@ -1,0 +1,17 @@
+.card{
+    width: 50%;
+    background-color: blueviolet;
+    text-align: center;
+    margin: 20px 30px;
+    padding: 25px 10px;
+}
+.card h2{
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.card h2{
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+}
