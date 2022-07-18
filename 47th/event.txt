@@ -1,0 +1,12 @@
+//DOM Events
+// 1. Event Object
+
+     -- Event Type: change, submit, load, unload, open, play,canplay, pause, playing, progress, ended, resize, scroll, toggle etc. 
+
+
+     -- Event Properties: type, terget,  perventDefault()        
+// 2. MouseEvent Object
+// 3. KeyboardEvent Object
+// 4. FocusEvent Object
+// 5. ClipboardEvent Object
+// 6. DragdEvent Object
