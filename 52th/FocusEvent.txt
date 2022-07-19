@@ -1,0 +1,9 @@
+// FocusEvent Object
+// <br>, <head>, <title>, <html>, <iframe>, <meta>, <param>, <script>,<style>, <base>, <dbo> not working with this type of Elements.
+
+// 1. onblur
+// 2. onfocus
+// 3. onfocusin
+// 4. onfocusout
+
+Reference: Sololearn, w3school,javatpiont
