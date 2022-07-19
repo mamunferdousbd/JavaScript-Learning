@@ -1,0 +1,5 @@
+// Clipboard Event Object
+
+//  Oncopy
+//  Oncut
+//  Onpast
