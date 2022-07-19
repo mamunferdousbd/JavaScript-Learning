@@ -1,0 +1,11 @@
+// Mouse Event --- <html>, <head>, <meta>, <br>, <title>, <style>, <script>, <iframe>, <param>, <base>, <dbo>
+//1. onclick
+//2. ondblclick
+//3. onmousedown
+//4. onmouseup
+//5. onmouseenter
+//6. onmouseleave
+//7. onmousemove
+//8. onmouseover
+
+
