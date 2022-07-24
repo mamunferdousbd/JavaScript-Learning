@@ -1,0 +1,2 @@
+Default Parameter Values
+    ES6 allows function parameters to have default values
