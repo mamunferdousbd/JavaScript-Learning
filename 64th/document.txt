@@ -1,0 +1,108 @@
+/*====================
+New Features in ES6
+====================*/
+
+1.The let keyword
+2.The const keyword
+3.Arrow Functions
+4.For/of
+5.Map Objects
+6.Set Objects
+7.Classes
+8.Promises
+9.Symbol
+10.Default Parameters
+11.Function Rest Parameter
+12.String.includes()
+13.String.startsWith()
+14.String.endsWith()
+15.Array.from()
+16.Array keys()
+17.Array find()
+18.Array findIndex()
+19.New Math Methods
+20.New Number Properties
+21.New Number Methods
+22.New Global Methods
+23.Object entries
+24.JavaScript Modules
+
+/*=======================
+JavaScript Let
+=======================*/
+
+1.The let keyword was introduced in ES6 (2015).
+
+2.Variables defined with let cannot be Redeclared.
+
+3.Variables defined with let must be Declared before use.
+
+4.Variables defined with let have Block Scope.
+
+/*=============================
+Block Scope
+=============================*/
+Before ES6 (2015), JavaScript had only Global Scope and Function Scope.
+
+ES6 introduced two important new JavaScript keywords: let and const.
+
+These two keywords provide Block Scope in JavaScript.
+
+Variables declared inside a { } block cannot be accessed from outside the block:
+
+/*=================
+JavaScript Const
+=================*/
+1.  The const keyword was introduced in ES6 (2015).
+
+    Variables defined with const cannot be Redeclared.
+
+    Variables defined with const cannot be Reassigned.
+
+    Variables defined with const have Block Scope.
+2.  JavaScript const variables must be assigned a value when they are declared: const Number = 10;    
+3.  When to use JavaScript const?
+    As a general rule, always declare a variable with const unless you know that the value will change.
+    Use const when you declare:
+    a.  A new Array
+    b.  A new Object
+    c.  A new Function
+    d.  A new RegExp
+
+4.  Constant Objects and Arrays    
+    The keyword const is a little misleading.
+
+    It does not define a constant value. It defines a constant reference to a value.
+
+    Because of this you can NOT:
+
+    Reassign a constant value
+    Reassign a constant array
+    Reassign a constant object
+    But you CAN:
+
+    Change the elements of constant array
+    Change the properties of constant object
+
+/*==================
+Constant Arrays
+==================*/    
+
+    You can change the elements of a constant array:
+        const cars = ["Saab", "Volvo", "BMW"];
+        cars[0] = "Toyota";
+        cars.push("Audi");
+    But you can NOT reassign the array: 
+        const cars = ["Saab", "Volvo", "BMW"];
+        cars = ["Toyota", "Volvo", "Audi"];    // ERROR   
+
+/*==================
+Constant Object
+==================*/    
+    You can change the properties of a constant object:
+        const car = {type:"Fiat", model:"500", color:"white"};
+        car.color = "red";
+        car.owner = "Johnson";
+    But you can NOT reassign the object:
+        const car = {type:"Fiat", model:"500", color:"white"};
+        car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR    
