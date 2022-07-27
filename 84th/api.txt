@@ -1,0 +1,16 @@
+// Here are the possible ways to make an API call:
+
+    1.  XMLHttpRequest
+    2.  fetch
+        The Fetch API provides an interface for fetching resources (including across the network) in an asynchronous manner.
+        It returns a Promise
+        It is an object which contains a single value either a Response or an Error that occurred.
+       .then() tells the program what to do once Promise is completed.
+       2Ways to call then async await
+
+
+
+
+
+    3.  Axios
+    4.  jQuery
