@@ -1,0 +1,8 @@
+// API====Application Programming Interface
+
+// 1.   Web API:=== A Web API is an application programming interface for the Web.
+
+// 1.   Browser  API:==== A Browser API can extend the functionality of a web browser.
+
+// 1.   Server API:===== A Server API can extend the functionality of a web server.
+
