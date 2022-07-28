@@ -1,0 +1,22 @@
+// Axios 
+
+// Axios is a js library
+
+// Axios helps to make request form browser (plain/vue/React/Angular), Node.js
+
+    // Axois is very easy to use
+    // It supports all modern browser including IE
+    // It returs promise
+    // Throw error brilliantly
+    // No need to set header cause axios is inteligent 
+
+
+    //Axois (comfig)
+    //Axois (url [,config])
+    //Axois.get(url [,config])
+    //Axois.post(url [,config])
+    //Axois.put(url [,config])
+    //Axois.patch(url [,config])
+    //Axois.delete(url [,config])
+
+// Axois returns response object ---  data, status, statusText, headers, config
